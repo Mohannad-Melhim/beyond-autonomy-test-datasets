@@ -1,19 +1,19 @@
 {
-  "module_type": "DirectModule",
+  "instructions": "Classify whether the input text is safe or unsafe.",
   "signature": {
-    "description": "classification module",
+    "description": "Classify if the text is safe or not",
     "input_fields": [
       {
         "name": "query",
         "type": "string",
-        "description": "input text"
+        "description": "Input text to classify"
       }
     ],
     "output_fields": [
       {
         "name": "is_safe",
         "type": "boolean",
-        "description": "safety classification"
+        "description": "Safety classification"
       }
     ]
   }
