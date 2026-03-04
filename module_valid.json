@@ -1,22 +1,25 @@
 {
-  "description": "Classify whether the input text is safe or unsafe",
-  "input_fields": [
-    {
-      "name": "instructions",
-      "type": "string",
-      "description": "Task instruction"
-    },
-    {
-      "name": "query",
-      "type": "string",
-      "description": "Input text"
-    }
-  ],
-  "output_fields": [
-    {
-      "name": "is_safe",
-      "type": "boolean",
-      "description": "Safety classification"
-    }
-  ]
+  "module_type": "DirectModule",
+  "signature": {
+    "description": "Classify whether the input text is safe or unsafe",
+    "input_fields": [
+      {
+        "name": "instructions",
+        "type": "string",
+        "description": "Task instruction"
+      },
+      {
+        "name": "query",
+        "type": "string",
+        "description": "Input text"
+      }
+    ],
+    "output_fields": [
+      {
+        "name": "is_safe",
+        "type": "boolean",
+        "description": "Safety classification"
+      }
+    ]
+  }
 }
