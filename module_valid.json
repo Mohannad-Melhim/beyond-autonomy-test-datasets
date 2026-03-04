@@ -1,0 +1,20 @@
+{
+  "module_type": "DirectModule",
+  "signature": {
+    "description": "classification module",
+    "input_fields": [
+      {
+        "name": "query",
+        "type": "string",
+        "description": "input text"
+      }
+    ],
+    "output_fields": [
+      {
+        "name": "is_safe",
+        "type": "boolean",
+        "description": "safety classification"
+      }
+    ]
+  }
+}
